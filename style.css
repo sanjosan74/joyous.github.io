@@ -1,0 +1,35 @@
+.hidden{
+opacity: 0;
+filter: blur(5px);
+transform:translateX(-100%);
+transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.card:nthchild(2){
+transition-delay: 200ms;
+}
+.card:nthchild(3){
+    transition-delay: 400ms;
+}
+.card:nthchild(4){
+    transition-delay: 600ms;
+}
+
+.dwni{
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url("Screenshot_20221031_211854.png");
+    background-size: cover;
+    background-position: center;
+    padding: 1%;
+    position: relative;
+}       
+.bg-info{
+    background-color: #093a5f!important;
+}
+
+ 
